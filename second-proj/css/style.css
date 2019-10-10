@@ -1,0 +1,47 @@
+.container {
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr; 
+    grid-template-rows: 2fr 1fr 5fr 1fr;
+    grid-template-areas: "a a a a a"
+                         "b b b b b" 
+                         "c c d e e" 
+                         ". f f f ."
+}
+
+.item {
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.one {
+    grid-area: a;
+    background-color: blue;
+}
+
+.two {
+    grid-area: b;
+    background-color: red;
+}
+
+.three {
+    grid-area: c;
+    background-color: aqua;
+}
+
+.four {
+ grid-area: d;
+ background-color: crimson;
+}
+
+.five {
+    grid-area: e;
+    background-color: yellow;
+}
+
+.six {
+    grid-area: f;
+    background-color: brown;
+}

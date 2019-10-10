@@ -1,0 +1,41 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "a a . b b"
+                         "a a c c c"
+                         "e e e . d" 
+                         "e e e . d" 
+                         "g g g g g"
+}
+
+.item {
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: Aqua;
+    border: 1px black solid;
+}
+
+.one {
+    grid-area: a
+}
+
+.two {
+    grid-area: b;
+}
+
+.three {
+    grid-area: c;
+}
+
+.four {
+ grid-area: d
+}
+
+.five {
+    grid-area: e
+}
+
+.six {
+    grid-area: g
+}
